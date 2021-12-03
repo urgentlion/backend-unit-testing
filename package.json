@@ -19,7 +19,7 @@
   "homepage": "https://github.com/urgentlion/backend-unit-testing#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.0.13"
+    "mongoose": "^6.0.14"
   },
   "devDependencies": {
     "jest": "^27.3.1"

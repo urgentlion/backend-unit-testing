@@ -1,6 +1,7 @@
 const TodoController = require("../../controllers/todo.controller");
 const TodoModel = require("../../model/todo.model");
 
+//If you do not have the jest.fn overriding the original fn, then you can't see the fn being called. This must be a mock or a spy
 TodoModel.create = jest.fn();
 
 describe("TodoController.createTodo", () => {
